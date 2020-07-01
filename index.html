@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+  <section class="header">
+    <header class="main-navbar-header">
+      <nav class="navbar navbar-expand-md navbar-dark theme-color shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" width="110" alt="logo"></a>
+          <div class="menu-toggle-button m-t-5">
+            <a class="nav-link wave-effect" href="#" id="sidebarCollapse">
+              <span class="fas fa-bars"></span>
+            </a>
+          </div>
+          <ul class="navbar-nav ml-auto navbar-top-links">
+            <li class="dropdown m-t-5">
+              <a class="dropdown-toggle profile-pic"  data-toggle="dropdown" href="#" aria-expanded="false">
+                <i class="far fa-envelope"></i>
+                <span class="badge notification shadow-sm messege"></span>
+              </a>
+                <ul class="dropdown-menu dropdown-user">
+                  
+                    
+                </ul>
+            </li>
+            <li class="dropdown m-t-5">
+              <a class="dropdown-toggle profile-pic"  data-toggle="dropdown" href="#" aria-expanded="false">
+                <i class="far fa-bell"></i>
+                <span class="badge notification shadow-sm"></span>
+              </a>
+                <ul class="dropdown-menu dropdown-user">
+                    
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle profile-pic"  data-toggle="dropdown" href="#" aria-expanded="false"  >
+                <img src="images/profile-pic.jpg" alt="user-img" width="30" class="img-circle" />
+              </a>
+              <ul class="dropdown-menu dropdown-user">
+                <li>
+                  <div class="dw-user-box text-center">
+                    <div class="u-text">
+                      <p class="text-muted">user@mail.com</p>
+                      <a href="profile.html" class="btn btn-rounded btn-danger btn-sm" >View Profile</a>
+                    </div>
+                  </div>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li>
+                  <a href="#"><i class="ti-user"></i> My Profile</a>
+                </li>
+                <li>
+                  <a href="#"><i class="ti-wallet"></i> My Balance</a>
+                </li>
+                <li>
+                  <a href="#"><i class="ti-email"></i> Inbox</a>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li>
+                  <a href="#"><i class="ti-settings"></i> Account Setting</a>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li>
+                  <a href="#"><i class="fa fa-power-off"></i> Logout</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown m-t-5">
+              <a class="dropdown-toggle profile-pic"  data-toggle="dropdown" href="#" aria-expanded="false">
+                <i class="fas fa-cog"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-user">
+                  
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </section>
+  <div class="wrapper">
+    <nav id="sidebar" class="nav-sidebar">
+      <div class="profile">
+        <img class="img-circle" src="images/profile-pic.jpg" width="70" alt="profile">
+        <h5>Shumon Mahamud</h5>
+        <h6>Adminstator</h6>
+        <ul>
+          <li><a href="#"><i class="fas fa-user"></i></a></li>
+          <li><a href="#"><i class="fas fa-home"></i></a></li>
+          <li><a href="#"><i class="fas fa-sign-out-alt"></i></a></li>
+        </ul>
+      </div>
+      <div class="nav-heading">
+        <h5>Navigations</h5>
+      </div>
+      <div class="sidebar-menu">
+        <ul>
+          <li class="sidebar-dropdown active">
+            <a href="javascript:;">
+              <i class="fa fa-tachometer-alt"></i>
+              <span>Dashboard</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li class="active">
+                  <a href="index.html">Dashboard 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Dashboard 2</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fas fa-table"></i>
+              <span>Layouts</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Dashboard 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Dashboard 2</a>
+                </li>
+                <li>
+                  <a href="#">Dashboard 3</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fas fa-envelope"></i>
+              <span>Mail</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Inbox</a>
+                </li>
+                <li>
+                  <a href="#">Read Mail</a>
+                </li>
+                <li>
+                  <a href="#">Send</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Ecommerce</span>
+            </a>
+          </li>
+          <div class="nav-heading">
+            <h5>Apps</h5>
+          </div>
+          <li>
+            <a href="#">
+              <i class="fas fa-calendar-alt"></i>
+              <span>Calender</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-comment-alt"></i>
+              <span>Messenger</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-id-card"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-clipboard-list"></i>
+              <span>To-Do</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-newspaper"></i>
+              <span>News Feed</span>
+            </a>
+          </li>
+          <div class="nav-heading">
+            <h5>Ui - Elements</h5>
+          </div>
+          <li>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Maps</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cogs"></i>
+              <span>Widgets</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chart-bar"></i>
+              <span>Chart</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-compress-arrows-alt"></i>
+              <span>Elements</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-th"></i>
+              <span>Table</span>
+            </a>
+          </li>
+          <div class="nav-heading">
+            <h5>Pages</h5>
+          </div>
+          <li>
+            <a href="#">
+              <i class="fas fa-file-invoice"></i>
+              <span>Invoice</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-times"></i>
+              <span>Error Page</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="far fa-check-circle"></i>
+              <span>Coming soon</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-level-up-alt"></i>
+              <span>Sign Up</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-sign-in-alt"></i>
+              <span>Log In</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="header-top shadow-sm m-t-15">
+        <p>Dashboard</p>
+        <p>Home / <span>Dashboard 1</span></p>
+      </div>
+      <div class="header-bottom">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="left-side">
+              <p><span><i class="fas fa-envelope-open-text"></i></span></p>
+              <p>If you want to get all update always please subscribe our newsletter</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="right-side">
+              <ul>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">Skip</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="cart_head">
+                  <span class="cart_title">Online Visitor</span>
+                  <span class="cart_icon"><i class="far fa-eye"></i></span>
+                </div>
+                <div class="cart_body">
+                      <p class="cart_body_title">5,192</p>
+                      <div class="progress border">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
